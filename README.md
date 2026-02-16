@@ -141,7 +141,6 @@ streamlit run app.py
 
 ```
 
----
 
 # ☁️ Deployment
 
@@ -157,15 +156,11 @@ streamlit run app.py
 ## 🔹 CI/CD
 - Auto-deploy enabled via GitHub integration  
 
----
-
 # ⚠️ Limitations
 
 - Dataset is based on older SMS/email spam corpus  
 - May not detect modern phishing patterns  
 - Real-world systems require periodic retraining  
-
----
 
 # 🔮 Future Improvements
 
@@ -176,7 +171,6 @@ streamlit run app.py
 - Model monitoring & retraining pipeline  
 - User analytics dashboard  
 
----
 
 # 🛠️ Tech Stack
 
@@ -198,7 +192,6 @@ streamlit run app.py
 - Cloud deployment  
 - CI/CD pipelines  
 
----
 
 # 🌟 Key Learnings
 
@@ -208,7 +201,6 @@ streamlit run app.py
 ✔ Model evaluation & tuning  
 ✔ Real-world ML architecture design  
 
----
 
 # 👨‍💻 Author
 
