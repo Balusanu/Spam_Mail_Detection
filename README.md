@@ -1,8 +1,8 @@
 # 📧 End-to-End Spam Detection System
 
-An end-to-end Machine Learning project that detects whether a message is **Spam or Ham (Not Spam)** using NLP and XGBoost, deployed with a modern full-stack architecture.
+An **end-to-end Machine Learning project** that classifies messages as **Spam or Ham (Not Spam)** using NLP and XGBoost, deployed with a modern full-stack architecture.
 
-This project demonstrates real-world ML workflow from model training to API deployment and frontend integration.
+This project showcases a real-world ML workflow — from data preprocessing and model training to API deployment and frontend integration.
 
 ---
 
@@ -11,33 +11,34 @@ This project demonstrates real-world ML workflow from model training to API depl
 ### 🌐 Streamlit Frontend  
 👉 https://spam-detection-app-by-bala.streamlit.app/
 
-### 🔗 FastAPI Backend  
+### 🔗 FastAPI Backend (API Docs)  
 👉 https://spam-detection-api-bq8l.onrender.com/docs
 
 ---
 
 # 🎯 Project Objective
 
-Spam emails and messages pose risks like phishing, fraud, and malware.  
-This project builds a scalable system to classify messages as spam or ham in real time.
+Spam messages and emails pose risks such as phishing, fraud, and malware attacks.
+
+This project aims to build a **scalable and real-time spam detection system** that can accurately classify messages and help reduce security risks.
 
 ---
 
 # 🧠 ML Approach
 
-## Text Preprocessing
-- Lowercasing
-- URL removal
-- Special character cleaning
-- Whitespace normalization
+## 🔹 Text Preprocessing
+- Lowercasing text  
+- URL removal  
+- Special character cleaning  
+- Whitespace normalization  
 
-## Feature Engineering
-- TF-IDF Vectorization
-- Unigrams + Bigrams
+## 🔹 Feature Engineering
+- TF-IDF Vectorization  
+- Unigrams + Bigrams  
 
-## Model
-- XGBoost Classifier
-- Implemented via Scikit-learn Pipeline
+## 🔹 Model
+- XGBoost Classifier  
+- Implemented using Scikit-learn Pipeline  
 
 ---
 
@@ -52,7 +53,7 @@ This project builds a scalable system to classify messages as spam or ham in rea
 | F1 Score | 98% |
 | ROC-AUC | 0.97 |
 
-Confusion Matrix:
+### Confusion Matrix
 
 ```
 
@@ -63,7 +64,7 @@ Confusion Matrix:
 
 ---
 
-# 🏗 System Architecture
+# 🏗️ System Architecture
 
 ```
 
@@ -77,14 +78,17 @@ ML Pipeline (TF-IDF + XGBoost)
 ↓
 Prediction + Confidence Score
 
+```
+
+---
 
 # ⚙️ How to Run Locally
 
-## 1️⃣ Clone Repo
+## 1️⃣ Clone the Repository
 
 ```
 
-git clone https://github.com/Balusanu/Spam_Mail_Detection
+git clone [https://github.com/Balusanu/Spam_Mail_Detection](https://github.com/Balusanu/Spam_Mail_Detection)
 cd spam-detection-system
 
 ```
@@ -93,16 +97,14 @@ cd spam-detection-system
 
 ## 2️⃣ Install Dependencies
 
-Backend:
-
+### Backend
 ```
 
 pip install -r backend/requirements.txt
 
 ```
 
-Frontend:
-
+### Frontend
 ```
 
 pip install -r frontend/requirements.txt
@@ -111,7 +113,7 @@ pip install -r frontend/requirements.txt
 
 ---
 
-## 3️⃣ Train Model (Optional)
+## 3️⃣ Train the Model (Optional)
 
 ```
 
@@ -143,58 +145,58 @@ streamlit run app.py
 
 # ☁️ Deployment
 
-### Backend
-- Deployed as FastAPI service
-- Hosted on cloud platform
-- REST API endpoints available
+## 🔹 Backend
+- Deployed as a FastAPI service  
+- Hosted on cloud platform  
+- REST API endpoints available  
 
-### Frontend
-- Streamlit Cloud deployment
-- Connected to live API
+## 🔹 Frontend
+- Deployed on Streamlit Cloud  
+- Connected to live API  
 
-### CI/CD
-- Auto-deploy enabled via GitHub integration
+## 🔹 CI/CD
+- Auto-deploy enabled via GitHub integration  
 
 ---
 
 # ⚠️ Limitations
 
-- Dataset based on older SMS/email spam corpus  
-- May not capture modern phishing patterns  
-- Real systems require periodic retraining  
+- Dataset is based on older SMS/email spam corpus  
+- May not detect modern phishing patterns  
+- Real-world systems require periodic retraining  
 
 ---
 
 # 🔮 Future Improvements
 
-- Transformer models (DistilBERT)
-- URL & domain reputation analysis
-- Email header features
-- Batch prediction endpoint
-- Model monitoring & retraining pipeline
-- User analytics dashboard
+- Transformer-based models (DistilBERT)  
+- URL & domain reputation analysis  
+- Email header feature extraction  
+- Batch prediction endpoint  
+- Model monitoring & retraining pipeline  
+- User analytics dashboard  
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-### Machine Learning
-- Python
-- Scikit-learn
-- XGBoost
-- Pandas
+## Machine Learning
+- Python  
+- Scikit-learn  
+- XGBoost  
+- Pandas  
 
-### Backend
-- FastAPI
-- Uvicorn
+## Backend
+- FastAPI  
+- Uvicorn  
 
-### Frontend
-- Streamlit
+## Frontend
+- Streamlit  
 
-### DevOps
-- GitHub
-- Cloud deployment
-- CI/CD pipelines
+## DevOps
+- GitHub  
+- Cloud deployment  
+- CI/CD pipelines  
 
 ---
 
@@ -211,5 +213,3 @@ streamlit run app.py
 # 👨‍💻 Author
 
 **Balasubramanya C K**
-
-If you found this project useful, consider ⭐ starring the repo!
